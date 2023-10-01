@@ -1,7 +1,7 @@
 site_name: Notas Musicais
 repo_url: https://github.com/thayanavt/notas-musicais.git
-repor_name: thayanavt/notas-musicais
-edit_url: tree/main/docs
+repo_name: thayanavt/notas-musicais
+edit_uri: tree/main/docs
 
 theme:
   name: material
@@ -14,3 +14,9 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/extra.css
+
+plugins:
+- mkdocstrings:
+    handlers:
+      python:
+        paths: [notas-musicais]
