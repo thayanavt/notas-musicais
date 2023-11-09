@@ -19,4 +19,4 @@ plugins:
 - mkdocstrings:
     handlers:
       python:
-        paths: [notas-musicais]
+        paths: [notas_musicais]
