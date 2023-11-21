@@ -49,6 +49,7 @@ def test_escala_tonicas_corretas(tonica, esperado):
     # Assert - Garantir
     assert result['notas'] == esperado
 
+
 def test_escala_graus_corretos():
     # Arange - Arrumar
     tonica = 'C'
